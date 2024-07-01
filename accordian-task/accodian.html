@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>accordian</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+   <div id="accordion">
+
+      <!-- card 1 -->
+
+      <div class="card">
+         <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#one">Tips for Healthy Eating:</a>
+         </div>
+
+         <div id="one" class="collapse show" data-parent="#accordion">
+            <div class="card-body">Providing practical advice on how to maintain a balanced diet, including meal planning, portion control, and choosing nutritious foods.</div>
+         </div>
+      </div>
+
+      <!-- card 2 -->
+
+      <div class="card">
+         <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#two">Impact of Climate Change</a>
+         </div>
+
+         <div id="two" class="collapse" data-parent="#accordion">
+            <div class="card-body">A basic overview of climate change, its causes, effects on the environment and human societies, and what individuals can do mitigate it..</div>
+         </div>
+
+      <!-- card 3 -->
+
+      </div>
+      <div class="card">
+         <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#three"> Introduction to Renewable Energy</a>
+         </div>
+
+         <div id="three" class="collapse" data-parent="#accordion">
+            <div class="card-body"> Exploring different types of renewable energy sources such as solar, wind, and hydroelectric power, and their role in sustainable development.</div>
+         </div>
+
+      </div>
+
+   </div>
+</body>
+
+</html>

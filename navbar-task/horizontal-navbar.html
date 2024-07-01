@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>horizontal navbar</title>
+
+    <!-- bootstrap links -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <a href="#" class="navbar-brand">Navbar</a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="#" class="nav-link text-white">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white">Service</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white">About us </a></li>
+                <li class="nav-item">
+                    <div class ="dropdown">
+                        <button type="button" class="btn btn-dark " data-toggle="dropdown">contact us</button>
+                            <div class="dropdown-menu bg-dark text-white">
+                                <a class="dropdown-item text-white active " href="#">instagram</a>
+                                <a class="dropdown-item text-white " href="#">facebook</a>
+                                <a class="dropdown-item text-white  " href="#">Whatsapp</a>
+                       
+                            </div>
+                    </div>
+                </li>
+                    
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
